@@ -1,0 +1,150 @@
+.center {
+font-size: 30px;
+font-family: 'Times New Roman', Times, serif;
+color: black;
+}
+.right {
+    float: right;
+    color: gray;
+    border-radius: 5px 5px 5px;
+    border: 1px solid gray;
+    font-family: 'Times New Roman', Times, serif; 
+    margin-left: 10px;
+}
+.left {
+    float: left;
+    color: gray;
+    margin-top: 10px;
+}
+.icon {
+    float: right;
+    margin-right: 5px;
+    font-size: 20px;
+}
+.q {
+    margin-top: 10px;
+}
+.link {
+    color: gray;
+}
+.head {
+    text-align: center;
+}
+.row {
+    display: flex;
+    gap: 100px;
+}
+.theader {
+    background-color: black;
+    color: white;
+    padding: 30px 40px;
+    margin-top: 10px;
+    border: 1px solid;
+    border-radius: 5px 5px 5px;
+}
+.name1 {
+    color: rgb(28, 166, 212);
+}
+.name2 {
+    color: gray;
+}
+.name3 {
+    color: green;
+}
+.col-6r {
+    float: left;
+    border: 1px solid;
+    padding: 0px;
+    margin-top: 10px;
+    width: 47%; 
+    border-radius: 5px 5px 5px;
+}
+.col-6l {
+    float: right;
+    border: 1px solid;
+    padding: 0px;
+    margin-top: 10px;
+    width: 47%; 
+    border-radius: 5px 5px 5px;
+}
+.col-1 {
+    width:35%;
+}
+.col-2 {
+    border: 1px solid;
+    background-color:gray;
+    width: 40%;
+    height: 60px;
+    float:right; 
+    margin:1%
+} 
+.col-4 {
+    width: 62%;
+    float: left;
+
+    padding-top: 15px;
+}
+.col-4p{
+    width: 62%;
+    float: left;
+    padding-top: 15px;
+    padding-left: 25px;
+    padding-bottom: 5px;
+}
+.btn {
+    border-radius: 20px 20px 20px;
+}
+.footer {
+    border: 1px solid gray;
+}
+.nemo1 {
+width: 33%;
+float: right;
+margin-top: 5px;
+}
+.nemo {
+    background-color: rgb(242, 247, 249) ;
+    padding: 15px 25px;
+    margin-top: 10px;
+}
+.nemo2 {
+    padding: 15px 25px;
+    margin-top: 10px;
+}
+.num {
+    color: rgb(28, 166, 212);
+}
+.firehose{
+    margin-top: 20px;
+    font-family:Baskerville old face;
+}
+.title{
+    font-family:Baskerville old face;
+}
+.footer {
+    text-align: center;
+    width: 100%;
+    background-color: rgb(228, 240, 250);
+    padding-top: 20px;
+    border: 1px solid rgb(228, 240, 250);
+}
+.tfooter {
+    padding-bottom: 25px;
+}
+.trai {
+    float: left;
+}
+.phai {
+    background-color: gray;
+    color: white;
+    float: right;
+    width: 30%;
+    height: 265px;
+    padding: 120px 50px;
+}
+@media only screen and (max-width:600px) {
+   
+    .col-6l, .col-6r, .col-1 {
+    width: 100%;
+    }
+}
